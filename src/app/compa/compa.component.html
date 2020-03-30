@@ -1,0 +1,6 @@
+<h1>Escriba su nombre:</h1>
+<input type="text" (keyup)="recibirEvento($event)">
+<h2>Su nombre es: {{ nombre }}</h2>
+<h1>Escriba su apellido:</h1>
+<input type="text" [(ngModel)]="apellido">
+<h2>Su apellido es: {{ apellido }}</h2>
